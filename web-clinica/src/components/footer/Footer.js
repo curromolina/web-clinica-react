@@ -1,5 +1,7 @@
 
 import React from 'react';
+
+import footerLogo from '../../footer-logo.webp';
  
 class Footer extends React.Component {
   render() {
@@ -9,7 +11,7 @@ class Footer extends React.Component {
 					<div className="container">
 						<div className="row">
 							<div className="col-xs-6 text-left">
-								<a href="#banner" aria-label="logo"><img src="img/footer-logo.webp" alt="logo" className="img-responsive"></img></a>
+								<a href="#banner" aria-label="logo"><img src={footerLogo} alt="logo" className="img-responsive"></img></a>
 								<div className="col-xs-6 text-right">
 									<div className="info-sec">
 										<p className="social-icon">

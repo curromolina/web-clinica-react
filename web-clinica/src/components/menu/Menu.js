@@ -1,6 +1,8 @@
 
 import React from 'react';
 
+import logo from '../../text.webp';
+
 class Menu extends React.Component {
   render() {
     return (
@@ -13,7 +15,7 @@ class Menu extends React.Component {
 								<span className="icon-bar"></span>
 								<span className="icon-bar"></span>
 							</button>
-							<a className="navbar-brand" href="#"><img src="img/text.webp" alt="logo texto" className="img-responsive"></img></a>
+							<a className="navbar-brand" href="#"><img src={logo} alt="logo texto" className="img-responsive"></img></a>
 						</div>
 						<div className="collapse navbar-collapse navbar-right" id="myNavbar">
 							<ul className="nav navbar-nav">
